@@ -5,7 +5,7 @@
   "homepage": "https://suitable.com",
   "categories": {
     "all": "All",    
-    "business": "Business",
+    "business": "Business"
   },
   "pagebuilders": {
     "elementor": "Elementor"
