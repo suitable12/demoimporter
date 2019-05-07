@@ -1,0 +1,70 @@
+{
+  "name": "Suitable",
+  "slug": "suitable",
+  "version": "1.0.0",
+  "homepage": "https://suitable.com",
+  "categories": {
+    "all": "All",    
+    "business": "Business",
+  },
+  "pagebuilders": {
+    "elementor": "Elementor"
+  },
+  "demos": {
+    "business": {
+      "title": "Business",
+      "preview": "https://suitable.com/business",
+      "description": "",
+      "template": [
+        "suitable"
+      ],
+      "category": [
+        "all",        
+        "business"
+      ],
+      "pagebuilder": [
+        "elementor"
+      ],
+      "plugins_list": {
+        "contact-form-7": {
+          "name": "Contact Form 7",
+          "slug": "contact-form-7/wp-contact-form-7.php"
+        },
+        "woocommerce": {
+          "name": "woocommerce",
+          "slug": "woocommerce/woocommerce.php"
+        },
+        "elementor": {
+          "name": "Elementor",
+          "slug": "elementor/elementor.php"
+        }
+      },
+      "core_options": {
+        "blogname": "Suitable",
+        "page_on_front": "home-page",
+        "page_for_posts": "news"
+      },
+      "elementor_schemes": {
+        "color": [],
+        "typography": {
+          
+          "primary": {
+            "font_family": "Raleway",
+            "font_weight": "300,700"
+          },
+          "secondary": {
+            "font_family": "Lato",
+            "font_weight": "300,700"
+          },          
+        }
+      },
+      "customizer_data_update": {
+        "nav_menu_locations": {
+          "primary-menu": "primary"          
+        }
+      }
+    },
+    
+    
+  }
+}
