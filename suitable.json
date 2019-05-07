@@ -46,8 +46,7 @@
       },
       "elementor_schemes": {
         "color": [],
-        "typography": {
-          
+        "typography": {          
           "primary": {
             "font_family": "Raleway",
             "font_weight": "300,700"
@@ -55,7 +54,7 @@
           "secondary": {
             "font_family": "Lato",
             "font_weight": "300,700"
-          },          
+          }
         }
       },
       "customizer_data_update": {
@@ -63,8 +62,6 @@
           "primary-menu": "primary"          
         }
       }
-    },
-    
-    
+    }
   }
 }
